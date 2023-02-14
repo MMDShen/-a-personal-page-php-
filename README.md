@@ -10,7 +10,7 @@ as i needed a **strong Resume** i decided to use my Abilities in several project
 
 ## Project Details
 ___
-### Main Tech Subjects
+### Main Subjects
 1. Function 
 2. API
 3. Flex Box
