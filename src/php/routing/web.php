@@ -1,14 +1,11 @@
 <?php
-//var_dump($_SERVER);
+//DRY
 function routing()
 {
-    if($_SERVER['REQUEST_URI'] == '/public/note')
-        return 'note';
-    if($_SERVER['REQUEST_URI'] == '/public/main')
-        return 'main';
-    if($_SERVER['REQUEST_URI'] == '/public/option')
-        return 'option';
-    return "main";
+    if(is_file("../src/php/view/".substr($_SERVER['REQUEST_URI'],8).".php"))
+        return ltrim($_SERVER['REQUEST_URI'],'/public');
+
+    return "404";
 };
 
     ?>

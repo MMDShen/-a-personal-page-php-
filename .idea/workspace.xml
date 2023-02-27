@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="41fdc24b-d8bf-40d1-b185-5e17e14f9a8a" name="Changes" comment="" />
+    <list default="true" id="41fdc24b-d8bf-40d1-b185-5e17e14f9a8a" name="Changes" comment="do routing and do nav view">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/php/routing/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/php/routing/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/php/view/note.php" beforeDir="false" afterPath="$PROJECT_DIR$/src/php/view/note.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -29,15 +34,15 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/xampp/htdocs/personal page/src/php/view",
+    "last_opened_file_path": "C:/xampp/htdocs/personal page/src/php/main function",
     "nodejs_package_manager_path": "npm",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\personal page\src\php\view" />
       <recent name="C:\xampp\htdocs\personal page\src\php\main function" />
+      <recent name="C:\xampp\htdocs\personal page\src\php\view" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\xampp\htdocs\personal page\src\php\component" />
@@ -53,8 +58,18 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676298974202</updated>
-      <workItem from="1676298975358" duration="11825000" />
+      <workItem from="1676298975358" duration="15148000" />
+      <workItem from="1677253652697" duration="665000" />
+      <workItem from="1677425794203" duration="11422000" />
     </task>
+    <task id="LOCAL-00001" summary="do routing and do nav view">
+      <created>1676352485232</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1676352485232</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -70,5 +85,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="do routing system and do nav view" />
+    <MESSAGE value="do routing and do nav view" />
+    <option name="LAST_COMMIT_MESSAGE" value="do routing and do nav view" />
   </component>
 </project>
